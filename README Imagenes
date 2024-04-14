@@ -1,0 +1,23 @@
+En las subcarpetas se han dejado las imágenes mas relevantes del estudio. Se han nombrado las subcarpetas como:
+* Fase0-XXXX : imagenes de referencia obtenidas en la fase inicial.
+* bordes-XXXX : imagenes de los bordes obtenidos.
+* Fase_final- XXXX : imagenes resultado del estudio
+Donde XXXX se refiere al set de imagenes, las que se consideraron como zonas "urbanas" se denominan ciudad (dentro de train en la BSDS500) y las incluidas en el set test de la BSDS500 se denominan BSDS500
+
+En el interior, para Fase0-????:
+* segmentacion_XXX_YYY : imágenes de las segmentaciones usadas y las uniones de las mismas (XXX), y el numero de la imagen de la BSDS500 (YYY).
+* Init3_FSL_YYY : imágenes de los bordes de la segmentación que se elige como mas prometedora (FSL = FH+SLIC), para cada imagen de la BSDS500 (YYY).
+
+
+En el interior, para bordes-????:
+* bordes_final_YYY : calculo final de bordes, para cada imagen de la BSDS500 (YYY).
+
+En el interior, para final-????:
+* Fase5_1_B_YYY_ZZ : imágenes resultado de la aplicación del método desarrollado, YYY numéro de imagen de la BSDS500 y ZZ distancia elegida para la segmentación final.
+* Fase5_2_B_YYY_ZZ : imágenes de referencia de la BSDS500, YYY numéro de imagen de la BSDS500 y ZZ distancia elegida para la segmentación final de esa imágen en el método.
+* Fase5_3_B_YYY_ZZ : imágenes comparativa entre solucion y método aplicado, YYY numéro de imagen de la BSDS500 y ZZ distancia elegida para la segmentación final.
+
+
+
+
+
